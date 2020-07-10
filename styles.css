@@ -27,14 +27,24 @@ label {
     padding: 0 0 10px 0;
 }
 h1 {
-    font-size: 20px;
     text-align: center;
+    color: #999ca1;
+    font-weight: bold;
 }
 h5 {
     margin: 1px 0 0 0;
+    color: #999ca1;
+}
+h2, h3, h4, h6, label {
+    color: #999ca1;
 }
 a {
     margin: 0 10px 0 10px;
+    text-decoration-line: none;
+}
+p {
+    font-size: 13px;
+    margin: 2px 0 0 0;
 }
 
 
@@ -126,7 +136,8 @@ a {
 .form-btn {
     background-color: #2173c3;
     color: white;
-    border: nones;
+    border: none;
+    border-radius: 3px;
     width: 205%;
     height: 40px;
     font-size: 17px;
