@@ -7,14 +7,14 @@ header {
    background-color: #eceef1;
 }
 body {
-    position: relative;
+    position: static ;
     width: auto;
     background-color: #eceef1;
 }
 footer {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    justify-content: center;
 }
 form {
     display: flex;
@@ -23,7 +23,7 @@ form {
     margin: 0 0 0 10px;
 }
 label {
-    margin: 25px 0 0 0;
+    margin: 15px 0 0 0;
     padding: 0 0 10px 0;
 }
 h1 {
@@ -83,14 +83,14 @@ h6 {
     width: 400px;
     height: auto;
     text-align: center;
-    margin: 0 0 0 35%;
-    border: solid 1px gray;
+    margin: auto;
+    border: solid 1px #999ca1;
     border-radius: 2px;
 }
 .signup-title {
     display: flex;
     flex-direction: column;
-    color: gray;
+    color: #999ca1;
     justify-content: center;
 }
 .brand-links {
@@ -98,21 +98,32 @@ h6 {
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    width: 100%;
+    width: auto;
+    margin-left: 75px;
+    
 }
+
 .icons {
     display: flex;
     flex-direction: row;
     width: 25px;
     height: 25px;
     align-items: center;
+    margin: 0 5px 10px 10px
+
 }
 #brand {
+    display: flex;
     margin-right: 100px;
+    justify-content: space-around;
+    
+
 }
 
 /*---------------------Form---------------*/
 .form-input {
+    display: flex;
+    flex-direction: column;
     width: 200%;
     height: 30px;
 }
@@ -128,7 +139,10 @@ h6 {
     flex-flow: column nowrap;
     width: 40%;
     margin: 0 0 0 35px;
-    height: 500px;
+    height: auto;
+}
+.label {
+    
 }
 .form-btn {
     background-color: #2173c3;
