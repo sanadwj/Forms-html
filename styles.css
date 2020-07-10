@@ -23,8 +23,7 @@ form {
     margin: 0 0 0 10px;
 }
 label {
-    margin: 15px 0 0 0;
-    padding: 0 0 10px 0;
+    text-align: start;
 }
 h1 {
     text-align: center;
@@ -121,6 +120,9 @@ h6 {
 }
 
 /*---------------------Form---------------*/
+.form-title {
+    margin: 10px;
+}
 .form-input {
     display: flex;
     flex-direction: column;
@@ -136,13 +138,10 @@ h6 {
 }
 .form-container {
     display: flex;
-    flex-flow: column nowrap;
+    flex-direction: column;
     width: 40%;
     margin: 0 0 0 35px;
     height: auto;
-}
-.label {
-    
 }
 .form-btn {
     background-color: #2173c3;
@@ -152,6 +151,7 @@ h6 {
     width: 205%;
     height: 40px;
     font-size: 17px;
+    margin: 10px 0 0 0;
 }
 .btn-icon {
     width: 15px;
@@ -159,7 +159,7 @@ h6 {
     margin: 0 5px 0 0;
 }
 .form-disclaimer-container {
-    margin: 0 15px 0 15px;
+    margin: 30px 0 0 0;
     width: auto;
     align-content: center;
     justify-content: center;
@@ -167,8 +167,10 @@ h6 {
 .captcha {
     background-color: #eceef1;
     height: 60px;
-    align-content: center;
     justify-content: center;
+}
+.form-disclaimer {
+    margin: 0 45px 0 45px;
 }
 /*------------------Footer----------------------*/
 .footer-links {
