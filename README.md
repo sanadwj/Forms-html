@@ -4,9 +4,8 @@
 
 > In this project we worked with forms and inputs in HTML and was styled with CSS3, to create a sign up page clone of Intuit Mint.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./graphics/Mint-Clone-screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
@@ -20,10 +19,6 @@ Additional description about the project and its features.
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
@@ -42,15 +37,13 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Sanad**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@sanadwj](https://github.com/sanadwj)
+- Linkedin: [Sanad Abujubara](https://www.linkedin.com/in/sanad-abu-jubara-51516548/ )
 
 👤 **Jurgen**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@jurgen1c](https://github.com/jurgen1c)
+- Linkedin: [Jurgen Clausen](https://www.linkedin.com/in/jurgen-clausen-2740061a9/)
 
 ## 🤝 Contributing
 
