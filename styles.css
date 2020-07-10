@@ -142,10 +142,10 @@ a {
     flex-direction: row;
     justify-content: center;
     margin: 10px 0 0 0;
-    align-self: baseline;
 }
 .footer-disclaimer {
-    width: 500px;
+    width: 800px;
     text-align: center;
-    margin: 5px 0 0 32%;
+    margin: 5px 0 0 0;
+    align-self: center;
 }
