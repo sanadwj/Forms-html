@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Project Name: Mint Sign Up page clone
 
-> One paragraph statement about the project.
+> In this project we worked with forms and inputs in HTML and was styled with CSS3, to create a sign up page clone of Intuit Mint.
 
 ![screenshot](./app_screenshot.png)
 
@@ -10,9 +10,9 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML, CSS3
+- No frameworks used
+- VS code with live server
 
 ## Live Demo
 
@@ -28,28 +28,25 @@ Additional description about the project and its features.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+    Code Editor
 
 ### Setup
+    Clone repo to local machine with cmd: git clone '
 
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+    Live Server
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Sanad**
 
 - Github: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
-👤 **Author2**
+👤 **Jurgen**
 
 - Github: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)

@@ -46,6 +46,9 @@ p {
     font-size: 13px;
     margin: 2px 0 0 0;
 }
+h6 {
+    padding: 25px 0 0 0;
+}
 
 
 /*------------------Header-----------------------*/
@@ -55,7 +58,7 @@ p {
     background-color: #2173c3;
     color: white;
     border: none;
-    margin: 9px 0 0 0;
+    margin: 9px 25px 0 10px;
     border-radius: 3px;
 }
 .header-text {
@@ -67,7 +70,7 @@ p {
 .header-btn-container {
     align-content: center;
     justify-content: center;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 10spx;
 }
 .header-link {
     margin: 5px 0 0 0;
@@ -78,7 +81,7 @@ p {
 .form-section {
     background-color: #ffffff;
     width: 400px;
-    height: 100%;
+    height: auto;
     text-align: center;
     margin: 0 0 0 35%;
     border: solid 1px gray;
@@ -95,11 +98,7 @@ p {
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    width: auto;
-    
-
-    
-   
+    width: 100%;
 }
 .icons {
     display: flex;
@@ -107,8 +106,6 @@ p {
     width: 25px;
     height: 25px;
     align-items: center;
-    
-    
 }
 #brand {
     margin-right: 100px;
@@ -146,6 +143,18 @@ p {
     width: 15px;
     height: 15px;
     margin: 0 5px 0 0;
+}
+.form-disclaimer-container {
+    margin: 0 15px 0 15px;
+    width: auto;
+    align-content: center;
+    justify-content: center;
+}
+.captcha {
+    background-color: #eceef1;
+    height: 60px;
+    align-content: center;
+    justify-content: center;
 }
 /*------------------Footer----------------------*/
 .footer-links {
