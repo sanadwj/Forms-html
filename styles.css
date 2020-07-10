@@ -24,6 +24,7 @@ form {
 }
 label {
     text-align: start;
+    margin-top: 20px;
 }
 h1 {
     text-align: center;
@@ -40,6 +41,7 @@ h2, h3, h4, h6, label {
 a {
     margin: 0 10px 0 10px;
     text-decoration-line: none;
+    
 }
 p {
     font-size: 13px;
@@ -52,12 +54,12 @@ h6 {
 
 /*------------------Header-----------------------*/
 .signin-btn {
-    width: 130px;
-    height: 35px;
+    width: 100px;
+    height: 30px;
     background-color: #2173c3;
     color: white;
     border: none;
-    margin: 9px 25px 0 10px;
+    margin: 10px 25px 0 10px;
     border-radius: 3px;
 }
 .header-text {
@@ -121,7 +123,10 @@ h6 {
 
 /*---------------------Form---------------*/
 .form-title {
-    margin: 10px;
+    
+}
+.learn-more {
+    margin: 0px;
 }
 .form-input {
     display: flex;
