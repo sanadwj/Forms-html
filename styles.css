@@ -84,11 +84,24 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-content: center;
+    width: auto;
+    
+
+    
    
 }
 .icons {
+    display: flex;
+    flex-direction: row;
     width: 25px;
     height: 25px;
+    align-items: center;
+    
+    
+}
+#brand {
+    margin-right: 100px;
 }
 
 /*---------------------Form---------------*/
