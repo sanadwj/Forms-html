@@ -86,6 +86,10 @@ a {
     justify-content: center;
    
 }
+.icons {
+    width: 25px;
+    height: 25px;
+}
 
 /*---------------------Form---------------*/
 .form-input {
