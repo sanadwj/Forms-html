@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://sanadwj.github.io/Forms-html/
+[Live Demo Link](https://sanadwj.github.io/Forms-html/)
 
 
 ## Getting Started
