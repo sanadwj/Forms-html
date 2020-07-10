@@ -123,13 +123,26 @@ a {
     margin: 0 0 0 35px;
     height: 500px;
 }
-
+.form-btn {
+    background-color: #2173c3;
+    color: white;
+    border: nones;
+    width: 205%;
+    height: 40px;
+    font-size: 17px;
+}
+.btn-icon {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 0 0;
+}
 /*------------------Footer----------------------*/
 .footer-links {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 10px 0 0 0;
+    align-self: baseline;
 }
 .footer-disclaimer {
     width: 500px;
