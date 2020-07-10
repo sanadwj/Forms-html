@@ -1,0 +1,121 @@
+/*------------------General Styling---------------*/
+header {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   height: 50px;
+   background-color: brown;
+}
+body {
+    position: relative;
+    width: auto;
+    background-color: lightblue;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    margin: 0 0 0 10px;
+}
+label {
+    margin: 25px 0 0 0;
+    padding: 0 0 10px 0;
+}
+h1 {
+    font-size: 20px;
+    text-align: center;
+}
+h5 {
+    margin: 1px 0 0 0;
+}
+a {
+    margin: 0 10px 0 10px;
+}
+
+
+/*------------------Header-----------------------*/
+.signin-btn {
+    width: 130px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin: 9px 0 0 0;
+    border-radius: 3px;
+}
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.header-btn-container {
+    align-content: center;
+    justify-content: center;
+    padding: 0 0 0 10px;
+}
+.header-link {
+    margin: 5px 0 0 0;
+}
+
+
+/*------------------Main------------------------*/
+.form-section {
+    background-color: white;
+    width: 400px;
+    height: 100%;
+    text-align: center;
+    margin: 0 0 0 35%;
+    border: solid 1px gray;
+    border-radius: 2px;
+}
+.signup-title {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    justify-content: center;
+}
+.brand-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+/*---------------------Form---------------*/
+.form-input {
+    width: 200%;
+    height: 30px;
+}
+.create-account {
+    background: url(./graphics/);
+    background-color: blue;
+    border-radius: 3px;
+    width: 205%;
+    height: 40px;
+}
+.form-container {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 40%;
+    margin: 0 0 0 35px;
+    height: 500px;
+}
+
+/*------------------Footer----------------------*/
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0 0 0;
+}
+.footer-disclaimer {
+    width: 500px;
+    text-align: center;
+    margin: 5px 0 0 32%;
+}
