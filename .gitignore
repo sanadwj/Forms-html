@@ -1,3 +1,7 @@
 styles.css
 .github/workflows/linters.yml
+<<<<<<< HEAD
 node_modules
+=======
+README.md
+>>>>>>> 9fde950110ce3923a30f0e8696227941f4f92808
