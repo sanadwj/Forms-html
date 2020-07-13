@@ -11,7 +11,7 @@
     <header>
         <div class="header-text">
             <h5>Already have an intuit account?</h5>
-            <a class="header-link" href="/blank"><p>I forgotmy User ID or password</p></a>
+            <a class="header-link" href="/blank"><p>I forgot my User ID or password</p></a>
         </div>
         <div class="header-btn-container">
             <button class="signin-btn"><img class="btn-icon" src="./graphics/icons8-lock-26.png" alt="lock">Sign In</button>
@@ -40,26 +40,26 @@
                     </div>
                 <!----------------------------Form-------------------------->
                 <section class="form-container">
-                    <form action="/signup" method="POST">
-                        <label>
-                            Email address
-                        </label>
-                        <input class="form-input" type="email" name="email-address" required>
-                        <br>
-                        <label>
-                            Phone (recommended) 
-                        </label>
-                        <input class="form-input" type="tel" name="Phone">
-                        <br>
-                        <label>
-                           Password
-                        </label>
-                        <input class="form-input" type="password" name="password" required>
-                        <br>
+                    <form action="/signup" method="POST"> 
+                        <div class="input-container">
+                            <label>
+                                Email address
+                            </label>
+                            <input class="form-input" type="email" name="email-address" required>
+                        </div>
+                        <div class="input-container">
+                            <label>
+                                Phone (recommended) 
+                            </label>
+                            <input class="form-input" type="tel" name="Phone">
+                        </div>
+                        <div class="input-container">
+                            <label>
+                                Password
+                             </label>
+                             <input class="form-input" type="password" name="password" required>
+                        </div>
                         <button class="form-btn" type="submit" name="submit"><img class="btn-icon" src="./graphics/icons8-lock-26.png" alt="">Create Account</button>
-                        <label>
-                            
-                        </label>
                     </form>
                 </section>
                 <section class="form-disclaimer-container">
