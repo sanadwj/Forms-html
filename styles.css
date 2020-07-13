@@ -47,6 +47,9 @@ p {
     font-size: 13px;
     margin: 2px 0 0 0;
 }
+h4 {
+    margin-bottom: 5px;
+}
 h6 {
     padding: 25px 0 0 0;
 }
@@ -93,6 +96,7 @@ h6 {
     flex-direction: column;
     color: #999ca1;
     justify-content: center;
+    align-items: center;
 }
 .brand-links {
     display: flex;
@@ -100,7 +104,7 @@ h6 {
     justify-content: center;
     align-content: center;
     width: auto;
-    margin-left: 75px;
+    
     
 }
 
@@ -110,13 +114,16 @@ h6 {
     width: 25px;
     height: 25px;
     align-items: center;
-    margin: 0 5px 10px 10px
+    margin: 10px 5px 10px 10px;
+    
 
 }
 #brand {
     display: flex;
-    margin-right: 100px;
-    justify-content: space-around;
+    flex-direction: row;
+    margin-right: auto;
+    width: auto; 
+    align-items: center;
     
 
 }
@@ -125,6 +132,9 @@ h6 {
 
 .learn-more {
     margin: 0px;
+}
+.learn-more-link {
+    font-size: 14px;
 }
 .form-input {
     display: flex;
