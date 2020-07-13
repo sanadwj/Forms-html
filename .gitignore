@@ -1,2 +1,3 @@
 styles.css
 .github/workflows/linters.yml
+node_modules
