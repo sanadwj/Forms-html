@@ -1,0 +1,228 @@
+/* ------------------General Styling--------------- */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 50px;
+  background-color: #eceef1;
+}
+
+body {
+  position: static;
+  width: auto;
+  background-color: #eceef1;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  margin: 0 0 0 10px;
+}
+
+label {
+  text-align: start;
+  padding: 20px 0 20px 0;
+}
+
+h1 {
+  text-align: center;
+  color: #999ca1;
+  font-weight: bold;
+}
+
+h5 {
+  margin: 1px 0 0 0;
+  color: #999ca1;
+}
+
+h2,
+h3,
+h4,
+h6,
+label {
+  color: #999ca1;
+}
+
+a {
+  margin: 0 10px 0 10px;
+  text-decoration-line: none;
+}
+
+p {
+  font-size: 13px;
+  margin: 2px 0 0 0;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+h6 {
+  padding: 25px 0 0 0;
+}
+
+/* ------------------Header----------------------- */
+.signin-btn {
+  width: 100px;
+  height: 30px;
+  background-color: #2173c3;
+  color: white;
+  border: none;
+  margin: 10px 25px 0 10px;
+  border-radius: 3px;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.header-btn-container {
+  align-content: center;
+  justify-content: center;
+  padding: 0 0 0 10px;
+}
+
+.header-link {
+  margin: 5px 0 0 0;
+}
+
+/* ------------------Main------------------------ */
+.form-section {
+  background-color: #fff;
+  width: 400px;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  border: solid 1px #999ca1;
+  border-radius: 2px;
+}
+
+.signup-title {
+  display: flex;
+  flex-direction: column;
+  color: #999ca1;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: auto;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  width: 25px;
+  height: 25px;
+  align-items: center;
+  margin: 10px 5px 10px 10px;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+  width: auto;
+  align-items: center;
+}
+
+/* ---------------------Form--------------- */
+
+.input-container {
+  text-align: start;
+  padding: 30px 0 0 0;
+}
+
+.learn-more {
+  margin: 0;
+}
+
+.learn-more-link {
+  font-size: 14px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  width: 200%;
+  height: 30px;
+}
+
+.create-account {
+  background: url(./graphics/);
+  background-color: #2173c3;
+  border-radius: 3px;
+  width: 205%;
+  height: 40px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 0 0 35px;
+  height: auto;
+}
+
+.form-btn {
+  background-color: #2173c3;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  width: 205%;
+  height: 40px;
+  font-size: 17px;
+  margin: 30px 0 0 0;
+}
+
+.btn-icon {
+  width: 15px;
+  height: 15px;
+  margin: 0 5px 0 0;
+}
+
+.form-disclaimer-container {
+  margin: 30px 0 0 0;
+  width: auto;
+  align-content: center;
+  justify-content: center;
+}
+
+.captcha {
+  background-color: #eceef1;
+  height: 60px;
+  justify-content: center;
+}
+
+.form-disclaimer {
+  margin: 0 45px 0 45px;
+}
+
+/* ------------------Footer---------------------- */
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px 0 0 0;
+}
+
+.footer-disclaimer {
+  width: 800px;
+  text-align: center;
+  margin: 5px 0 0 0;
+  align-self: center;
+}
